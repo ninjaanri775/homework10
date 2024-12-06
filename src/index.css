@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  margin: 0; 
+}
+
+.header{
+  height: 60px;
+  background-color: rgb(34, 34, 34);
+  padding: 20px 30px;
+  display: flex;
+  gap: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 2px solid black;
+}
+
+
+.main{
+  width: 600px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 2px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+.profile{
+  width: 300px;
+}
+
+.information{
+  display: flex;
+  flex-direction: row;
+}
+
+.info{
+  position: relative;
+  top: 50px;
+}
+
+.contact{
+  text-decoration: underline;
+  padding-top: 5px;
+  transform: translateX(50px)translateY(70px);
+}
+
+.react{
+  width: 120px;
+}
+
+.projections{
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  margin-left: 70px;
+}
+
+.card{
+  width: 250px;
+  height: 250px;
+  background-color: lightblue;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.reactdiv{
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.projectlink{
+  background-color: rgb(137, 238, 204);
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  position: relative;
+  top: 17px;
+  border-radius: 10px;
+}
+
+.vercel{
+  left: 25px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  gap: 10px; 
+  transform: translateX(20px)translateY(10px);
+}
+
+.hobbylink{
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+  padding: 15px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.hobbylink:hover{
+  background-color: rgb(123, 237, 237);
+}
+
+.hobbyname{
+  font-size: 28px;
+  width: 250px;
+  text-align: center;
+  transform: translateY(-60px);
+}
+
+.hobbymain{
+  width: 500px;
+  height: 500px;
+}
+
+.infors{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.secinfo{
+  transform: translateY(50px);
+  text-align: center;
+}
+
+.back{
+  background-color: rgb(100, 10, 10);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  left: 10px;
+  top: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.back:hover{
+  background-color: rgb(135, 33, 33);
+}
+
+.error{
+  position: relative;
+  top: 130px;
+  left: 180px;
+  width: 20px;
+  color: red;
+  font-size: 58px;
+}
